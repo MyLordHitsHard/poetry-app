@@ -6,6 +6,12 @@ spring:
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
+  web:
+    cors:
+      allowed-origin-patterns: "http://localhost:3000"
+      allowed-methods: "GET,POST,PUT,DELETE,OPTIONS"
+      allowed-headers: "*"
+      allow-credentials: true
 
   jpa:
     hibernate:
@@ -21,3 +27,7 @@ server:
 jwt:
   secret: ${JWT_SECRET}
   expiration: 3600000
+
+
+
+
