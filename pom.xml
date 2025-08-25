@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.poetry</groupId>
 	<artifactId>poetry</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>poetry</name>
 	<description>A Poet&apos;s last hope</description>
 	<url/>
